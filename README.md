@@ -2,9 +2,7 @@
 
 ## Main ones: 
 
-Linear Regression
-Classification 
-Neural Network 
+Linear Regression, Classification, Neural Network 
 
 ## Main libraries: 
 
