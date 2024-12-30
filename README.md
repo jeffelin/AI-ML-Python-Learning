@@ -1,15 +1,15 @@
 # ML Projects To Do 
 
-## Main ones: 
+## Main Techniques
 
 Linear Regression, Classification, Neural Network 
 
-## Main libraries: 
+## Main libraries
 
 Pytorch
 Tensorflow 
 
-### Projects: 
+### Projects
 
 1. Iris Dataset -> done!
 2. 
