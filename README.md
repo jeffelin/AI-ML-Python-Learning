@@ -1,22 +1,22 @@
 # ML Projects To Do 
 
-Main ones: 
+## Main ones: 
 
 Linear Regression
 Classification 
 Neural Network 
 
-Main libraries: 
+## Main libraries: 
 
 Pytorch
 Tensorflow 
 
-Projects: 
+### Projects: 
 
 1. Iris Dataset -> done!
 2. 
 
-Mastery Strategy 1 
+#### Mastery Strategy 1 
 
 Implementing Research Paper From Scratch --> 1 New Paper a Month, Research Papers:
 
@@ -26,5 +26,5 @@ Implementing Research Paper From Scratch --> 1 New Paper a Month, Research Paper
 4. Bag of tricks for image classification with convolutional neural networks
 5. Distilling the knowledge in a neural network 
 
-Mastery Strategy 2 
+#### Mastery Strategy 2 
 Fine Tuning an Open Source LLM with Google Colab --> TBD.
