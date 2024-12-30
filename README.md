@@ -1,24 +1,28 @@
-ML Projects To Do 
+# ML Projects To Do 
 
+## Main Techniques
 
-Linear Regression
-Classification 
-Neural Network 
+Linear Regression, Classification, Neural Network 
 
-Projects: 
-1. Iris Dataset done!
+## Main libraries
+
+Pytorch
+Tensorflow 
+
+### Projects
+
+1. Iris Dataset -> done!
 2. 
 
+#### Mastery Strategy 1 
 
-Learn the basics of PyTorch 
+Implementing Research Paper From Scratch --> 1 New Paper a Month, Research Papers:
 
-Implementing Research Paper From Scratch 
-1 New Paper a Month 
-    Research Papers
-    Attention is all you need
-    YOLO: you only look once
-    A few useful things to know about machine learning 
-    Bag of tricks for image classification with convolutional neural networks 
-    Distilling the knowledge in a neural network 
+1. Attention is all you need
+2. YOLO: you only look once
+3. A few useful things to know about machine learning 
+4. Bag of tricks for image classification with convolutional neural networks
+5. Distilling the knowledge in a neural network 
 
-Fine Tuning an Open Source LLM with Google Colab 
+#### Mastery Strategy 2 
+Fine Tuning an Open Source LLM with Google Colab --> TBD.
