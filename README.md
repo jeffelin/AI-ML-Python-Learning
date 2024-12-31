@@ -9,10 +9,23 @@ Linear Regression, Classification, Neural Network
 Pytorch
 Tensorflow 
 
-### Projects
+### Projects -> need to play around more 
 
 1. Iris Dataset -> done!
-2. 
+2. Stock Price App -> done!
+
+
+### Brainstorming:
+Streamlit PDF 
+
+
+
+
+AI Tutor aka Goggins (Colab, API, Streamlit)
+Content Creator 
+Auotmated Content (MidJourney, Dalle)
+Summary AI (text, audio, video)
+Jeff GPT 
 
 #### Mastery Strategy 1 
 
