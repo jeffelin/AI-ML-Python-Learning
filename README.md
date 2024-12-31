@@ -13,7 +13,7 @@ Tensorflow
 
 1. Iris Dataset -> done!
 2. Stock Price App -> done!
-
+3. DNA Counter App -> done! 
 
 ### Brainstorming:
 Streamlit PDF 
