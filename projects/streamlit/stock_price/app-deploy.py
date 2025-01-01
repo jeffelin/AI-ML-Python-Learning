@@ -1,6 +1,8 @@
 import yfinance as yf 
 import streamlit as st
 
+# credits --> https://github.com/dataprofessor/streamlit_freecodecamp/tree/main/app_1_simple_stock_price
+
 st.write("""
 
 ## Simple Stock Price App 
@@ -26,4 +28,3 @@ st.line_chart(tickerDf.Close)
 st.write("### Volume")
 st.line_chart(tickerDf.Volume)
 
-# credits --> https://github.com/dataprofessor/streamlit_freecodecamp/tree/main/app_1_simple_stock_price

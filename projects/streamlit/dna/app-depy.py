@@ -2,6 +2,8 @@ import pandas as pd
 import streamlit as st 
 import altair as alt 
 
+# credits to https://github.com/dataprofessor/streamlit_freecodecamp/tree/main/app_2_simple_bioinformatics_dna
+
 st.write("""
          
 # DNA Nucleotide Count Web App.

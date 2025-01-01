@@ -1,6 +1,7 @@
 
 
 # importing and setting 
+# credits for helping -> https://www.youtube.com/@ProjectDataScience
 
 import os 
 import pandas as pd

@@ -1,29 +1,31 @@
 # ML Projects To Do 
 
+I am working on learning and applying AI programs. Most of the work here is open sourced and done with the help of prev. creators. 
+
 ## Main Techniques
 
 Linear Regression, Classification, Neural Network 
 
 ## Main libraries
 
-- ML : Pytorch, Tensorflow, Sklearn 
-- Deployment : Streamlit
-- General : Numpy, Matplotlib, Seaborn, Yfinance 
+- ML: Pytorch, Tensorflow, Sklearn 
+- Deployment: Streamlit
+- General: Numpy, Matplotlib, Seaborn, Yfinance 
 
 ### Projects -> need to play around more 
 
-1. Iris Dataset -> done!
-2. Stock Price App -> done!
-3. DNA Counter App -> done! 
-4. S&P500 Data Scraping -> done!
+1. Iris Dataset -> :white_check_mark:
+2. Stock Price App -> :white_check_mark:
+3. DNA Counter App -> :white_check_mark: 
+4. S&P500 Data Scraping -> :white_check_mark:
 
-### Brainstorming:
-Streamlit PDF 
-AI Tutor aka Goggins (Colab, API, Streamlit)
-Content Creator 
-Auotmated Content (MidJourney, Dalle)
-Summary AI (text, audio, video)
-Jeff GPT 
+### Brainstorming
+- Streamlit PDF 
+- AI Tutor aka Goggins (Colab, API, Streamlit)
+- Content Creator 
+- Auotmated Content (MidJourney, Dalle)
+- Summary AI (text, audio, video)
+- Jeff GPT 
 
 #### Mastery Strategy 1 
 
