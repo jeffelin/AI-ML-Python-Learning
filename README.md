@@ -6,9 +6,9 @@ Linear Regression, Classification, Neural Network
 
 ## Main libraries
 
-ML : Pytorch & Tensorflow 
-Deployment : Streamlit
-General : Numpy, Matplotlib, Seaborn, Yfinance 
+- ML : Pytorch, Tensorflow, Sklearn 
+- Deployment : Streamlit
+- General : Numpy, Matplotlib, Seaborn, Yfinance 
 
 ### Projects -> need to play around more 
 
@@ -19,10 +19,6 @@ General : Numpy, Matplotlib, Seaborn, Yfinance
 
 ### Brainstorming:
 Streamlit PDF 
-
-
-
-
 AI Tutor aka Goggins (Colab, API, Streamlit)
 Content Creator 
 Auotmated Content (MidJourney, Dalle)
