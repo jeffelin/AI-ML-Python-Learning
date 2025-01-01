@@ -1,6 +1,8 @@
 # ML Projects To Do 
 
-I am working on learning and applying AI programs. Most of the work here is open sourced and done with the help of prev. creators. 
+I am working on learning and applying AI programs. Most of the work here is open sourced and done with the help of prev. creators. I played with a lot of the programs. All credits are attached within specific applications. 
+
+Suggestions can be sent to jefflincreates@gmail.com
 
 ## Main Techniques
 
