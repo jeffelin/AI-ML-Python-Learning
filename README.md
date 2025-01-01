@@ -2,7 +2,7 @@
 
 I am working on learning and applying AI programs. Most of the work here is open sourced and done with the help of prev. creators. I played with a lot of the programs. All credits are attached within specific applications. 
 
-Suggestions can be sent to jefflincreates@gmail.com
+Suggestions can be sent to jefflincreates@gmail.com!
 
 ## Main Techniques
 
@@ -29,6 +29,14 @@ Linear Regression, Classification, Neural Network
 - Summary AI (text, audio, video)
 - Jeff GPT 
 
+#### Mastery Strategy 0 
+
+1. Tutorials & Playground Testing 
+2. Independent ML Projects with the help of prev. code 
+3. Open Course w/ textbook and lectures @ Stanford and Princeton for ML 
+4. Algorithms Daily Practice 
+5. Kaggling and Reviewing Complex Projects 
+
 #### Mastery Strategy 1 
 
 Implementing Research Paper From Scratch --> 1 New Paper a Month, Research Papers:
@@ -40,4 +48,4 @@ Implementing Research Paper From Scratch --> 1 New Paper a Month, Research Paper
 5. Distilling the knowledge in a neural network 
 
 #### Mastery Strategy 2 
-Fine Tuning an Open Source LLM with Google Colab --> TBD.
+1. Fine Tuning an Open Source LLM with Google Colab --> TBD.
