@@ -6,14 +6,16 @@ Linear Regression, Classification, Neural Network
 
 ## Main libraries
 
-Pytorch
-Tensorflow 
+ML : Pytorch & Tensorflow 
+Deployment : Streamlit
+General : Numpy, Matplotlib, Seaborn, Yfinance 
 
 ### Projects -> need to play around more 
 
 1. Iris Dataset -> done!
 2. Stock Price App -> done!
 3. DNA Counter App -> done! 
+4. S&P500 Data Scraping -> done!
 
 ### Brainstorming:
 Streamlit PDF 
