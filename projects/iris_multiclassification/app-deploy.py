@@ -39,7 +39,10 @@ iris_dataset = datasets.load_iris()
 X = iris_dataset.data 
 Y = iris_dataset.target
 
+# you can put in here different ml algorithms 
 rfc = RandomForestClassifier() 
+
+# WITH ONLY RFC 
 rfc.fit(X,Y) 
 
 predictions = rfc.predict(df) 
