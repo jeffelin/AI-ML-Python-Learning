@@ -20,6 +20,7 @@ Linear Regression, Classification, Neural Network
 2. Stock Price App -> :white_check_mark:
 3. DNA Counter App -> :white_check_mark: 
 4. S&P500 Data Scraping -> :white_check_mark:
+5. MNIST Data -> :loop:
 
 ### Brainstorming
 - Streamlit PDF 
@@ -31,7 +32,7 @@ Linear Regression, Classification, Neural Network
 
 #### Mastery Strategy 0 
 
-1. Tutorials & Playground Testing 
+1. Tutorials & Playground Testing, then teaching 
 2. Independent ML Projects with the help of prev. code 
 3. Open Course w/ textbook and lectures @ Stanford and Princeton for ML 
 4. Algorithms Daily Practice 
