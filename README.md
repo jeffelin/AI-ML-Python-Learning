@@ -1,12 +1,16 @@
 # ML Projects To Do 
 
-I am working on learning and applying AI programs. Most of the work here is open sourced and done with the help of prev. creators. I played with a lot of the programs. All credits are attached within specific applications. 
+I am working on learning and applying AI programs. Most of the work here is open sourced and done with the help of prev. creators. I played with a lot of the programs. All credits are attached within specific applications. I am also working on my Beginner AI Book! 
 
-Suggestions can be sent to jefflincreates@gmail.com!
+- Technique: 5-10 small projects (<60 minutes>) in this github + 1 big independent project (>2 hours) every 2 weeks in indivdual githubs
+
+- Learning: Tests, Textbooks, Quizzes, Tutorials, Lectures, Writing
+
+Suggestions can be sent to jefflincreates@gmail.com! Below are accountability measures and updates. 
 
 ## Main Techniques
 
-Linear Regression, Classification, Neural Network 
+Linear Regression, Classification, Neural Networks, App Development 
 
 ## Main libraries
 
@@ -16,7 +20,7 @@ Linear Regression, Classification, Neural Network
 
 ### Projects -> need to play around more 
 
-1. Iris Dataset -> :white_check_mark:
+1. Iris Dataset & Iris App Deployment-> :white_check_mark:
 2. Stock Price App -> :white_check_mark:
 3. DNA Counter App -> :white_check_mark: 
 4. S&P500 Data Scraping -> :white_check_mark:
