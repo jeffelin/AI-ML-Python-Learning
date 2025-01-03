@@ -1,6 +1,4 @@
-# data set can be accessed here -> https://www.kaggle.com/datasets/hojjatk/mnist-dataset
-# credits attributed to -> https://www.kaggle.com/code/wwsalmon/simple-mnist-nn-from-scratch-numpy-no-tf-keras
-# entirely from numpy, pandas, and matplot
+
 
 import numpy as np 
 import pandas as pd

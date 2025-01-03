@@ -25,6 +25,7 @@ Linear Regression, Classification, Neural Networks, App Development
 3. DNA Counter App -> :white_check_mark: 
 4. S&P500 Data Scraping -> :white_check_mark:
 5. MNIST Data -> :loop:
+6. Boston Housing Regression -> :white_check_mark:
 
 ### Brainstorming
 - Streamlit PDF 
