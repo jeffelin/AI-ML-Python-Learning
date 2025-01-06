@@ -1,0 +1,1 @@
+thank you & credits -> https://gist.github.com/Sentdex/454cb20ec5acf0e76ee8ab8448e6266c and https://github.com/Sentdex/NNfSiX/tree/master/Python

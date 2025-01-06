@@ -1,5 +1,5 @@
-
-# Output Machines for testing cases and better efficiencies
+import numpy as np 
+import math 
 
 def output_machine_1(): 
     inputs = [1,2,3,2.5]
@@ -20,7 +20,7 @@ def output_machine_2():
     return print(output)
 
 def neuron(inputs, weights, biases, layer_outputs): 
-  for neuron_weights, neuron_biases in zip(weights, biases): # zip combines two list into a list for that element. 
+  for neuron_weights, neuron_biases in zip(weights, biases):
         neuron_output = 0 
         for n_input, weight in zip(inputs, neuron_weights):
             neuron_output += n_input*weight
@@ -38,7 +38,7 @@ def output_machine_3():
 
 import numpy as np 
 
-def output_machine_4(): # dot product with numpy 
+def output_machine_4():
     inputs = [1,2,3,2.5]
     weights = [[0.2,0.8,-0.5,1.0], 
            [0.5,-0.91,0.26,-0.5], 
@@ -46,10 +46,6 @@ def output_machine_4(): # dot product with numpy
     biases = [2,3,0.5]
     output = np.dot(weights, inputs) + biases
     return print(output)
-
-
-# cross product multiplies each row of a matrix with the corresponding columns of another matrix 
-# transpose inverts columns into the rows 
 
 def output_machine_5(): 
 
@@ -75,18 +71,11 @@ def output_machine_5():
 
     return print(layer_2_outputs)
 
-np.random.seed(0) 
-# import nnfs 
-
-# nnfs.init() 
-
 def output_machine_6(): 
 
     X_training_dataset = [[1,2,3,2.5],
           [2.0,5.0,-1.0,2.0],
           [-1.5,2.7,3.3,-0.8]] 
-    # code from https://gist.github.com/Sentdex/454cb20ec5acf0e76ee8ab8448e6266c 
-
     def spiral_data(points, classes):
         X = np.zeros((points*classes, 2))
         y = np.zeros(points*classes, dtype='uint8')
@@ -98,23 +87,12 @@ def output_machine_6():
             y[ix] = class_number
         return X, y
 
-# Biases = 0 might initialize to 0 but cannot do this all the time as it can keep looping *0 "called a dead network", so maybe it can be non zero values. 
-
-# Weights = random so we initialize weights with random values from 0 to 1 to prevent explosion. 
-
-# Making this an object. 
     class Layer_Dense: 
         def __init__(self, n_inputs, n_neurons):
-            self.weights = 0.10*np.random.randn(n_inputs, n_neurons) # this is the shape that it makes of the array 
+            self.weights = 0.10*np.random.randn(n_inputs, n_neurons) 
             self.biases = np.zeros((1, n_neurons))
-            # no need the transpose b/c it maps correctly 
         def forward(self, inputs):
             self.output = np.dot(inputs, self.weights) + self.biases 
-    # layer_1 = Layer_Dense(4, 5) # any values
-    # # layer_2 = Layer_Dense(5,2) # first must correspond to the last 
-    # layer_1.forward(X_training_dataset) 
-    # # layer_2.forward(layer_1.output)
-    # # print(layer_2.output)
 
     class Activation_RELU: 
         def forward(self, inputs): 
@@ -128,7 +106,7 @@ def output_machine_6():
     
     class Loss: 
         def calculate(self, output, y): 
-            sample_losses = self.forward(output, y) # depends on the kind of loss function you want 
+            sample_losses = self.forward(output, y) 
             data_loss = np.mean(sample_losses)
             return data_loss
         
@@ -160,40 +138,22 @@ def output_machine_6():
     loss = loss_function.calculate(activation_2.output, y) 
     print("Loss:", loss)
 
-    # layer_1 = Layer_Dense(2, 5) 
-
-    # activation_1 = Activation_RELU()
-
-    # layer_1.forward(X_training_dataset) 
-    # # print(layer_1.output) 
-    # activation_1.forward(layer_1.output)
-    # print(activation_1.output)
-
 
 
 
 def ReLU(inputs): 
     outputs = []
-    # better code is  the first one and they are equivalent 
+
     for i in inputs: 
         outputs.append(max(0,i))
-    # for i in inputs: 
-    #     if i > 0: 
-    #         outputs.append(i)
-    #     elif i<=0:  
-    #         outputs.append(0) 
     return print(outputs)
-
-# softmax activation function transforms the raw outputs into a vector of probabilities 
-
-import math 
 
 def softmax_raw_math(): 
     layer_outputs = [4.8,1.21,2.385]
     exp_values = [] 
     E = math.e
     for output in layer_outputs:
-        exp_values.append(E**output) # exponentiates all the values to have only positives
+        exp_values.append(E**output)
     norm_base = sum(exp_values)
     norm_values = [] 
     for value in exp_values: 
@@ -208,13 +168,13 @@ def softmax():
                      [8.9,-1.81,0.2],
                      [1.41,1.051,0.026]] 
     exp_values = np.exp(layer_outputs)
-    norm_values = exp_values / np.sum(exp_values,axis = 1, keepdims = True) # dimensions fitting 
+    norm_values = exp_values / np.sum(exp_values,axis = 1, keepdims = True)
     print(norm_values)
 
 import math 
 
 def categorical_cross_entropy(): 
-    softmax_output = [0.7,0.1,0.2] # output of probabilities 
+    softmax_output = [0.7,0.1,0.2] 
     target_output = [1,0,0] 
     loss = -(math.log(softmax_output[0])*target_output[0] + math.log(softmax_output[1])*target_output[1] + math.log(softmax_output[2])*target_output[2])
     new_loss = -math.log(softmax_output[0]*target_output[0])
@@ -222,20 +182,17 @@ def categorical_cross_entropy():
 
 def implement_categorical_loss(): 
     softmax_outputs = np.array( [0.7,0.1,0.2],  [0.1,0.5,0.4],  [0.02,0.9,0.8])
-    class_targets = [0,1,1] # you want to loop through each softmax output with its corresponding class target 
-    # we will clip to prevent the 0th case to be a small value. 
+    class_targets = [0,1,1] 
     return print(-np.log(softmax_outputs[[0,1,2], class_targets])) 
 
 def testing(): 
-    # output_machine_1()
-    # output_machine_2() 
-    # output_machine_3()
-    # output_machine_4() 
-    # output_machine_5() 
-    # ReLU ([1,2,3,2.5]) 
-    # softmax_raw_math()
-    # softmax
-    # categorical_cross_entropy()
+    output_machine_1()
+    output_machine_2() 
+    output_machine_3()
+    output_machine_4() 
+    output_machine_5() 
+    ReLU ([1,2,3,2.5]) 
+    softmax_raw_math()
+    softmax
+    categorical_cross_entropy()
     output_machine_6() 
-
-testing()
