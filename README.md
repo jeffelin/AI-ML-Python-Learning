@@ -27,7 +27,8 @@ Linear Regression, Classification, Neural Networks, App Development
 5. MNIST Data -> :loop:
 6. Boston Housing Regression -> :white_check_mark:
 7. Breast Cancer Classification -> :loop:
-8. Neural Network From Scratch -> :loop:
+8. Neural Network From Scratch -> :white_check_mark:
+9. Neural Networks with Python and PyTorch -> :loop:
 
 ### Brainstorming
 - Streamlit PDF 
