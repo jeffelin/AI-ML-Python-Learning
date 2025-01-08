@@ -1,9 +1,8 @@
 
 ## What is this? 
 
-working on manually coding a neural network by hand from each neuron in mathematical operations in python
-working on using pytorch libaries and neural networks 
-
+- working on manually coding a neural network by hand from each neuron in mathematical operations in python
+- working on using pytorch libaries and neural networks 
 
 
 # Steps 
@@ -19,14 +18,12 @@ working on using pytorch libaries and neural networks
 
 Activation Functions -> output function will have a different activation function than the hidden layers is to mimic the neuron firing, helps offset 
 
-
-   -  Examples -> https://www.v7labs.com/blog/neural-networks-activation-functions 
+   - Examples -> https://www.v7labs.com/blog/neural-networks-activation-functions 
    - Neuron neuron connections can lead to weird properties 
 
+If we just use linear activation function, it will be a linear function. We need a non-linear function to help fit any non-linear data. 
 
-If we just use linear activation function, it will be a linear function. We need a non-linear function to help fit any non-linear data 
+Calculating Loss to determine the accuracy of the model.
 
-Calculating Loss to determine the accuracy of the model 
-
-Optimize to decrease the loss function and fine tuning it 
+Optimize to decrease the loss function and fine tuning it. 
 
