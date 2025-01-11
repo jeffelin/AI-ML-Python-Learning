@@ -30,7 +30,7 @@ Linear Regression, Classification, Neural Networks, App Development
 8. Neural Network From Scratch -> :white_check_mark:
 9. Neural Networks with Python and PyTorch -> :white_check_mark:
 10. Python Games, Apps, Algorithms -> :loop:
-11. Deep Learning with Python and TensorFlow -> :loop:
+11. Deep Learning with Python and TensorFlow -> :white_check_mark:
 
 ### Brainstorming
 - Streamlit PDF 
