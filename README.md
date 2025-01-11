@@ -24,11 +24,13 @@ Linear Regression, Classification, Neural Networks, App Development
 2. Stock Price App -> :white_check_mark:
 3. DNA Counter App -> :white_check_mark: 
 4. S&P500 Data Scraping -> :white_check_mark:
-5. MNIST Data -> :loop:
+5. MNIST Dataset -> :white_check_mark: ( need to do more data viz)
 6. Boston Housing Regression -> :white_check_mark:
 7. Breast Cancer Classification -> :loop:
 8. Neural Network From Scratch -> :white_check_mark:
-9. Neural Networks with Python and PyTorch -> :loop:
+9. Neural Networks with Python and PyTorch -> :white_check_mark:
+10. Python Games, Apps, Algorithms -> :loop:
+11. Deep Learning with Python and TensorFlow -> :loop:
 
 ### Brainstorming
 - Streamlit PDF 
