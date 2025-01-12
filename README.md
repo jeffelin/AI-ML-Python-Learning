@@ -1,5 +1,7 @@
 # ML Projects To Do 
 
+**ecause projects are becoming more advanced and this repo is becoming more complex, new projects will be moved into their own repos** 
+
 I am working on learning and applying AI programs. Most of the work here is open sourced and done with the help of prev. creators. I played with a lot of the programs. All credits are attached within specific applications. I am also working on my Beginner AI Book! 
 
 - Technique: 5-10 small projects (<60 minutes>) in this github + 1 big independent project (>2 hours) every 2 weeks in indivdual githubs
