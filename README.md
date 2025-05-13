@@ -1,4 +1,4 @@
-# ML Projects To Do 
+# ML Projects To Do (archived)
 
 **Because projects are becoming more advanced and this repo is becoming more complex, new projects will be moved into their own repos. Most of my learning will be on the repo.** 
 
